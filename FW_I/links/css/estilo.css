@@ -1,0 +1,63 @@
+/* classes */
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+
+.fonteParagrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.btn{
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    background-color: rgba(red, green, blue, 0);
+    text-decoration: none;
+}
+
+.btn::after{
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+    transition: margin-top 250ms;
+}
+
+.btn:hover::after{
+    margin-top: -8px;
+}
+
+/* ids */
+
+#lista ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#lista ul li a{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* elementos */
+nav{
+    background-color: #f1f1f1;
+}
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+li a:hover{
+    background-color: chartreuse;
+    color: white;
+}

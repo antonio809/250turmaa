@@ -1,0 +1,36 @@
+section{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo-um{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(96, 139, 32);
+    background-color: aliceblue;
+    margin-right: 30%;
+}
+
+#titulo-dois{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    background-color: aquamarine;
+    margin-right: 30%;
+}
+
+#link-um{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(224, 221, 221);
+    color: blueviolet;
+}
+
+#link-dois{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    background-color: aqua;
+    color: red;
+    font-style: italic;
+}

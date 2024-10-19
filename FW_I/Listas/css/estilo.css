@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: cadetblue;
+}
+
+body{
+    font-family: fantasy;
+}
+
+section{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px ;
+}
+
+#titulo-h2{
+    color: aqua;
+}
+
+#titulo-sublista{
+    color: red;
+}
